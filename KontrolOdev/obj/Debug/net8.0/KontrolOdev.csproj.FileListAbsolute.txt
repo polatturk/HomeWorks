@@ -1,0 +1,15 @@
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\bin\Debug\net8.0\KontrolOdev.exe
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\bin\Debug\net8.0\KontrolOdev.deps.json
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\bin\Debug\net8.0\KontrolOdev.runtimeconfig.json
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\bin\Debug\net8.0\KontrolOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\bin\Debug\net8.0\KontrolOdev.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\obj\Debug\net8.0\KontrolOdev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\obj\Debug\net8.0\KontrolOdev.AssemblyInfoInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\obj\Debug\net8.0\KontrolOdev.AssemblyInfo.cs
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\obj\Debug\net8.0\KontrolOdev.csproj.CoreCompileInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\obj\Debug\net8.0\KontrolOdev.sourcelink.json
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\obj\Debug\net8.0\KontrolOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\obj\Debug\net8.0\refint\KontrolOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\obj\Debug\net8.0\KontrolOdev.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\obj\Debug\net8.0\KontrolOdev.genruntimeconfig.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\KontrolOdev\obj\Debug\net8.0\ref\KontrolOdev.dll
