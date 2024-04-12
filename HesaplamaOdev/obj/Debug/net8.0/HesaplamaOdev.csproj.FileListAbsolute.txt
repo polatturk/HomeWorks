@@ -1,0 +1,15 @@
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\bin\Debug\net8.0\HesaplamaOdev.exe
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\bin\Debug\net8.0\HesaplamaOdev.deps.json
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\bin\Debug\net8.0\HesaplamaOdev.runtimeconfig.json
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\bin\Debug\net8.0\HesaplamaOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\bin\Debug\net8.0\HesaplamaOdev.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\obj\Debug\net8.0\HesaplamaOdev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\obj\Debug\net8.0\HesaplamaOdev.AssemblyInfoInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\obj\Debug\net8.0\HesaplamaOdev.AssemblyInfo.cs
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\obj\Debug\net8.0\HesaplamaOdev.csproj.CoreCompileInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\obj\Debug\net8.0\HesaplamaOdev.sourcelink.json
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\obj\Debug\net8.0\HesaplamaOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\obj\Debug\net8.0\refint\HesaplamaOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\obj\Debug\net8.0\HesaplamaOdev.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\obj\Debug\net8.0\HesaplamaOdev.genruntimeconfig.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\HesaplamaOdev\obj\Debug\net8.0\ref\HesaplamaOdev.dll
