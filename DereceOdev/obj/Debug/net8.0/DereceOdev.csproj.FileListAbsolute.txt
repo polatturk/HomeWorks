@@ -1,0 +1,15 @@
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\bin\Debug\net8.0\DereceOdev.exe
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\bin\Debug\net8.0\DereceOdev.deps.json
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\bin\Debug\net8.0\DereceOdev.runtimeconfig.json
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\bin\Debug\net8.0\DereceOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\bin\Debug\net8.0\DereceOdev.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\obj\Debug\net8.0\DereceOdev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\obj\Debug\net8.0\DereceOdev.AssemblyInfoInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\obj\Debug\net8.0\DereceOdev.AssemblyInfo.cs
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\obj\Debug\net8.0\DereceOdev.csproj.CoreCompileInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\obj\Debug\net8.0\DereceOdev.sourcelink.json
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\obj\Debug\net8.0\DereceOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\obj\Debug\net8.0\refint\DereceOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\obj\Debug\net8.0\DereceOdev.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\obj\Debug\net8.0\DereceOdev.genruntimeconfig.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\DereceOdev\obj\Debug\net8.0\ref\DereceOdev.dll
