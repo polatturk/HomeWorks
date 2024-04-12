@@ -1,0 +1,15 @@
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\bin\Debug\net8.0\HikayeOdev.exe
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\bin\Debug\net8.0\HikayeOdev.deps.json
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\bin\Debug\net8.0\HikayeOdev.runtimeconfig.json
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\bin\Debug\net8.0\HikayeOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\bin\Debug\net8.0\HikayeOdev.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\obj\Debug\net8.0\HikayeOdev.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\obj\Debug\net8.0\HikayeOdev.AssemblyInfoInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\obj\Debug\net8.0\HikayeOdev.AssemblyInfo.cs
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\obj\Debug\net8.0\HikayeOdev.csproj.CoreCompileInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\obj\Debug\net8.0\HikayeOdev.sourcelink.json
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\obj\Debug\net8.0\HikayeOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\obj\Debug\net8.0\refint\HikayeOdev.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\obj\Debug\net8.0\HikayeOdev.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\obj\Debug\net8.0\HikayeOdev.genruntimeconfig.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\HikayeOdev\obj\Debug\net8.0\ref\HikayeOdev.dll
