@@ -12,8 +12,6 @@
 
             Console.Write("Şifreniz : ");
             string sifre = Console.ReadLine();
-            
-
 
             if (kullaniciAdi == kontrol1 && sifre == kontrol2) 
             {
@@ -25,8 +23,6 @@
                 Console.WriteLine("Hatalı kullanıcı adı veya şifre girdiniz Lütfen tekrar deneyiniz!");
                 Console.ReadLine();
             }
-
-
 
         }
     }
