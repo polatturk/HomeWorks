@@ -1,0 +1,15 @@
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\bin\Debug\net8.0\AlisverisHesaplama.exe
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\bin\Debug\net8.0\AlisverisHesaplama.deps.json
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\bin\Debug\net8.0\AlisverisHesaplama.runtimeconfig.json
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\bin\Debug\net8.0\AlisverisHesaplama.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\bin\Debug\net8.0\AlisverisHesaplama.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\obj\Debug\net8.0\AlisverisHesaplama.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\obj\Debug\net8.0\AlisverisHesaplama.AssemblyInfoInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\obj\Debug\net8.0\AlisverisHesaplama.AssemblyInfo.cs
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\obj\Debug\net8.0\AlisverisHesaplama.csproj.CoreCompileInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\obj\Debug\net8.0\AlisverisHesaplama.sourcelink.json
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\obj\Debug\net8.0\AlisverisHesaplama.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\obj\Debug\net8.0\refint\AlisverisHesaplama.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\obj\Debug\net8.0\AlisverisHesaplama.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\obj\Debug\net8.0\AlisverisHesaplama.genruntimeconfig.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\AlisverisHesaplama\obj\Debug\net8.0\ref\AlisverisHesaplama.dll
