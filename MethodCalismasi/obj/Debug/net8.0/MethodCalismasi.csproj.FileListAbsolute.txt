@@ -1,0 +1,15 @@
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\bin\Debug\net8.0\MethodCalismasi.exe
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\bin\Debug\net8.0\MethodCalismasi.deps.json
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\bin\Debug\net8.0\MethodCalismasi.runtimeconfig.json
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\bin\Debug\net8.0\MethodCalismasi.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\bin\Debug\net8.0\MethodCalismasi.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\obj\Debug\net8.0\MethodCalismasi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\obj\Debug\net8.0\MethodCalismasi.AssemblyInfoInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\obj\Debug\net8.0\MethodCalismasi.AssemblyInfo.cs
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\obj\Debug\net8.0\MethodCalismasi.csproj.CoreCompileInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\obj\Debug\net8.0\MethodCalismasi.sourcelink.json
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\obj\Debug\net8.0\MethodCalismasi.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\obj\Debug\net8.0\refint\MethodCalismasi.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\obj\Debug\net8.0\MethodCalismasi.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\obj\Debug\net8.0\MethodCalismasi.genruntimeconfig.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\MethodCalismasi\obj\Debug\net8.0\ref\MethodCalismasi.dll
