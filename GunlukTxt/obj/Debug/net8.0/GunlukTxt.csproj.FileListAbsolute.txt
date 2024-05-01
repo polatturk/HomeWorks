@@ -1,0 +1,15 @@
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\bin\Debug\net8.0\GunlukTxt.exe
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\bin\Debug\net8.0\GunlukTxt.deps.json
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\bin\Debug\net8.0\GunlukTxt.runtimeconfig.json
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\bin\Debug\net8.0\GunlukTxt.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\bin\Debug\net8.0\GunlukTxt.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\obj\Debug\net8.0\GunlukTxt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\obj\Debug\net8.0\GunlukTxt.AssemblyInfoInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\obj\Debug\net8.0\GunlukTxt.AssemblyInfo.cs
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\obj\Debug\net8.0\GunlukTxt.csproj.CoreCompileInputs.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\obj\Debug\net8.0\GunlukTxt.sourcelink.json
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\obj\Debug\net8.0\GunlukTxt.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\obj\Debug\net8.0\refint\GunlukTxt.dll
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\obj\Debug\net8.0\GunlukTxt.pdb
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\obj\Debug\net8.0\GunlukTxt.genruntimeconfig.cache
+C:\Users\Polat\OneDrive\Masaüstü\works\GunlukTxt\obj\Debug\net8.0\ref\GunlukTxt.dll
