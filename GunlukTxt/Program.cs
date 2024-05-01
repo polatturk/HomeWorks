@@ -1,10 +1,11 @@
 ﻿using System.ComponentModel.Design;
+using System.Threading.Channels;
 
 namespace GunlukTxt
 {
-    internal class Program 
+    class Program 
     {
-        class Gunluk
+       class Gunluk
        {
            public DateTime KayitTarihi { get; set; }
            public DateTime GuncellemeTarihi { get; set; }
@@ -78,6 +79,7 @@ namespace GunlukTxt
                     KayitlariSil();
                     break;
                 case '4':
+                    CikisYap();
                     break;
                 default:
                     Console.WriteLine("\nböyle bir seçenek yok !!");
@@ -88,18 +90,16 @@ namespace GunlukTxt
         }
         static void MenuyeDon(bool ilkAcilisMi = false)
         {
-
             Console.WriteLine("\nMenüye dönmek için bir tuşa basın");
             Console.ReadKey(true);
             MenuGoster();
         }
-
         static void VerileriYukle()
         {
             using StreamReader reader = new StreamReader("Gunluk.txt");
             while (!reader.EndOfStream)
             {
-                Console.WriteLine("satır: " + reader.ReadLine());
+                Console.WriteLine(reader.ReadLine());
             }
         }
         static void KayitlariListele()
@@ -169,6 +169,11 @@ namespace GunlukTxt
         {
             Console.Clear();
             Console.WriteLine($"{DateTime.Now.ToString("dd/MM/yyyy")} Tarihinde Kayıt Tarihinizi Başarıyla Güncellediniz...");
+        }
+        static void CikisYap()
+        {
+            Console.WriteLine("\nHadi Eyvallah...");
+            Environment.Exit(0);
         }
         static void KayitDuzenle()
         {
