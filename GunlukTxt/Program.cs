@@ -1,9 +1,10 @@
 ﻿using System.ComponentModel.Design;
+using System.Runtime.InteropServices;
 using System.Threading.Channels;
 
 namespace GunlukTxt
 {
-    class Program 
+    internal class Program
     {
        class Gunluk
        {
@@ -12,6 +13,7 @@ namespace GunlukTxt
            public string Aciklama { get; set; }
        }
         static List<Gunluk>gunlukler = new List<Gunluk>();
+        static int siradakiKayit = 0;
         static void TxtKaydet()
         {
             using StreamWriter writer = new StreamWriter("Gunluk.txt");
@@ -102,31 +104,33 @@ namespace GunlukTxt
                 Console.WriteLine(reader.ReadLine());
             }
         }
-        static void KayitlariListele()
+        static void KayitlariListele() 
         {
             Console.Clear();
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine("Tüm Kayıtlar");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            Console.WriteLine("    Tüm Kayıtlar");
             Console.ResetColor();
-            Console.WriteLine("");
-            if (gunlukler.Count == 0)
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("-----------------------");
+            Console.ResetColor();
+            if (siradakiKayit < gunlukler.Count)
             {
-                Console.WriteLine("Listelenecek Kayıt bulunamadı.");
+                var gunluk = gunlukler[siradakiKayit++];
+                Console.WriteLine($"- {gunluk.Aciklama} | {gunluk.KayitTarihi.ToString("dd/MM/yyyy")}\n");
             }
-
-            for (int i = 0; i < gunlukler.Count;i++)
+            else
             {
-                Console.WriteLine($"{i + 1} - {gunlukler[i].Aciklama} | {gunlukler[i].KayitTarihi.ToString("dd/MM/yyyy")}");
-                Console.WriteLine("---------------------------------------------------------------");
+                siradakiKayit = 0;
+                Console.WriteLine("Başka bir kayıt yok!");
             }
-            Console.Write("(Y)eni Kayıt | (K)ayıt Güncelle | (A)na Menü | (D)üzenle | (S)il");
+            Console.Write("(S)onraki Kayıt | (K)ayıt Güncelle | (A)na Menü | (D)üzenle | (x)Sil\n");
             Console.Write("\nİşleminiz: ");
             char islem = Console.ReadKey().KeyChar;
 
             switch (islem)
             {
-                case 'y':
-                    YeniEkle();
+                case 's':
+                    KayitlariListele();
                     break;
                 case 'k':
                     TarihGuncelle();
@@ -137,7 +141,7 @@ namespace GunlukTxt
                 case 'd':
                     KayitDuzenle();
                     break;
-                case 's':
+                case 'x':
                     KayitlariSil();
                     break;
                 default:
@@ -151,19 +155,19 @@ namespace GunlukTxt
         static void KayitlariSil()
         {
             Console.Clear();
-            Console.Write("Tüm Kayıtlar silinecek emin misin?: ");
-            string silCevap = Console.ReadLine();
-            if (silCevap == "evet")
+            Console.Write("Silmek istediğiniz kaydın numarasını girin: ");
+            if (int.TryParse(Console.ReadLine(), out int kayitNo) && kayitNo > 0 && kayitNo <= gunlukler.Count)
             {
-                gunlukler.Clear();
-                Console.WriteLine("Tüm Kayıtlar silindi.");
+                gunlukler.RemoveAt(kayitNo - 1);
+                Console.WriteLine("Seçilen Kayıt silindi.");
                 MenuyeDon();
                 TxtKaydet();
             }
             else
             {
-                MenuyeDon();
+                Console.WriteLine("Geçersiz kayıt numarası!");
             }
+            MenuyeDon();
         }
         static void TarihGuncelle()
         {
@@ -172,31 +176,32 @@ namespace GunlukTxt
         }
         static void CikisYap()
         {
-            Console.WriteLine("\nHadi Eyvallah...");
+            Console.Clear();
+            Console.WriteLine("Hadi Eyvallah...");
             Environment.Exit(0);
         }
         static void KayitDuzenle()
         {
             Console.Clear();
-            Console.Write("Kaydınızın düzenlenmiş halini yazın: ");
-            string duzenlenenKayit = Console.ReadLine();
+            Console.Write("Düzenlemek istediğiniz kaydın numarasını girin: ");
+            if (int.TryParse(Console.ReadLine(), out int kayitNo) && kayitNo > 0 && kayitNo <= gunlukler.Count)
+            {
+                Console.Write("Kaydınızın düzenlenmiş halini yazın: ");
+                string duzenlenenKayit = Console.ReadLine();
 
-            gunlukler.Clear();
-            Gunluk duzenlenenGunluk = new Gunluk();
+                var duzenlenenGunluk = gunlukler[kayitNo - 1];
+                duzenlenenGunluk.Aciklama = duzenlenenKayit;
+                duzenlenenGunluk.GuncellemeTarihi = DateTime.Now;
 
-            duzenlenenGunluk.Aciklama = duzenlenenKayit;
-            duzenlenenGunluk.KayitTarihi = DateTime.Now;
-            duzenlenenGunluk.GuncellemeTarihi = DateTime.Now;
-
-            Console.WriteLine("\nKaydınız başarıyla düzenlenmiştir.");
-            gunlukler.Add(duzenlenenGunluk);
-            TxtKaydet();
+                Console.WriteLine("\nKaydınız başarıyla düzenlenmiştir.");
+                TxtKaydet();
+            }
+            MenuyeDon();
         }
         static DateTime sonEklenenTarih = DateTime.MinValue;
         static void YeniEkle()
         {
             Console.Clear();
-
             if (sonEklenenTarih.Date != DateTime.Now.Date)
             {
                 Console.Write("Yeni kaydınızı yazınız: ");
@@ -214,14 +219,15 @@ namespace GunlukTxt
             }
             else
             {
-                Console.WriteLine("Bugün günlük kaydı girdin, aynı tarihte yeni bir kayıt eklemek ister misin?\n");
+                Console.WriteLine("Bugün günlük kaydı girdin, aynı tarihte yeni bir kayıt eklemek ister misin?");
                 Console.WriteLine("(E)vet | (H)ayır");
-                Console.Write("Cevabınız: ");
+                Console.Write("\nCevabınız: ");
                 char kayitCevap = Console.ReadKey().KeyChar;
 
                 if (kayitCevap == 'e' || kayitCevap == 'E') 
                 {
-                    Console.Write("\nYeni kaydınızı yazınız: ");
+                    Console.Clear();
+                    Console.Write("Yeni kaydınızı yazınız: ");
                     string eklemek = Console.ReadLine();
 
                     Gunluk gunluk = new Gunluk();
